@@ -25,7 +25,6 @@ void blinkLikeHell(void) {
 
 void loop(void) {
   uint8_t success;
-  uint8_t data[32];
   success = keyDuino.readTargetID(PN532_MIFARE_ISO14443A, uid, &uidLength);
 
   if (success) {
