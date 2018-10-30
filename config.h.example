@@ -1,0 +1,2 @@
+unsigned int PIN_RELAY = 13;
+unsigned char correctTag[] = { 0, 0, 0, 0, 0, 0, 0 };
